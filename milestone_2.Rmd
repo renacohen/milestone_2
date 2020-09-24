@@ -1,0 +1,24 @@
+---
+title: "Milestone 2"
+author: "Rena Cohen"
+date: "9/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Link to github repo: https://github.com/renacohen/milestone_2
+
+**Project 1: Goodwill Hunting**
+
+I was initially drawn to this project because it seemed as if it would answer a question that impacts my daily life. I love to thrift, so knowing whether the location of a Goodwill compared to house income affected the quality of the clothes I could find there is actually information that I could see using when deciding where to thrift in the future! The project made good use of geographic data, and being able to view locations around the country by income quantile on a map allowed me to both view the distribution of Goodwills and get a rough proxy for what income differences looked like around the country. Moreover, the graphic that compared Goodwill neighborhood home values to nationwide neighborhood home values was fascinating, as it showed that there seemed to be a relationship between region and the income level of neighborhoods that Goodwills were placed in. The project had lots of interactive elements, including a map that allowed you to pick quartiles, a histogram with a slider feature, and a database search function, all of which felt useful to my understanding of the dataset. Additionally, the acknowledgment of limitations/future routes to take in the analysis section (“Shoppers in each region aren't comparing stores to others nationwide; they're comparing stores to others in their area. Perhaps an analysis grouped by city or region would reveal a stronger relationship.”) struck me as very well-thought out. Finally, the language used was easy to follow, and even managed to convey some of the creator’s sense of humor, which I appreciated (“pretty much have not purchased a new item of clothing since 2016 (which admittedly is more a reflection of my shallow bank balance more than my deep commitment to sustainability”). 
+
+This was my favorite project out of any I had viewed, so it was difficult to find critiques. That being said, a few of the more ambitious technical elements did not seem to work for me (i.e. “Input your zip code to view Goodwill locations in your area” yielded a blank map even though I know that there are many Goodwills around me). I also would have appreciated knowing what the different quantiles for homes corresponded to, rather than just labeling them q1, q2, q3, and q4, though I could always look it up on m own. Finally, the data compilation method, which included manually typing in 500 randomly sampled Yelp ratings, sounded pretty tedious. But overall, this was a fantastic project with tons of interactive elements, an easy-to-follow flow and structure, and direct, real-world implications on decisions I would make as a consumer.
+
+**Project 2: Fingerprints of Colonization**
+
+I chose this project because Chloe is my PSET buddy for Stat 139, and I am constantly grateful for her wonderful R skills when pseting! Her project deals with what I think is a fascinating subject: the effect of foreign occupation over time on income, GDP, child mortality, and other outcomes. Visually, it’s a really beautiful project. She used a special kind of font (not just the shiny app default font) that I didn’t see on any of the other projects I checked out, which made her pages look coherent, professional, and stylized. The choice to plot each country in a different color made for very eye-catching graphs (although, with around 40 countries all together on a line graph and no way to section them out, it was difficult to determine any definitive trends). Finally the overall layout of the tabs of her project felt very logical, because each tab focused on the effects of colonization on a specific type of metric: economy, house, education, and quality of life.
+
+I think that this project could have been improved in several ways. First of all, she had many graphs that looked at the long lasting effects of foreign occupation on some other metric. The X Axis (year of independence) went from 900 AD - 2100 despite that fact that countries only began gaining independence around 1600, and most of them after 1800 (she included these lower years in order to countries that had not been colonized). This made it very difficult to see trends in the data because the points were all clustered together between the very small 1800-2000 range. Furthermore, the project did not include any analysis, just the raw graphs for the viewer to interpret. While I don’t think the project needed to fit statistical models in order to be effective, a sentence or two summarizing the major takeaway from each graph would have been helpful. Finally, as I mentioned before, graphs with more than 15 or so colors make it impossible to pinpoint trends for an individual category (though you can get a sense of overall trends). 
